@@ -1,4 +1,4 @@
-package edu.brown.cs.student.main;
+package main.java.edu.brown.cs.student.main;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,12 +21,12 @@ import spark.Response;
 import spark.Route;
 import spark.Filter;
 import spark.Spark;
+import org.json.JSONObject;
 import spark.TemplateViewRoute;
 import spark.template.freemarker.FreeMarkerEngine;
 
 import freemarker.template.Configuration;
 
-import org.json.JSONObject;
 
 /**
  * The Main class of our project. This is where execution begins.
